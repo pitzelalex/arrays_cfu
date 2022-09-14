@@ -49,3 +49,25 @@ print "answers - "
 print answers
 puts ""
 puts ""
+
+# Index positions assign a numerical value (beginning with 0) to each element based on the order of the elements within an array
+# For example, if I want to know what the 4rd element of friends it would be element [2]
+puts "friends[2]"
+print friends
+puts ""
+puts friends[2]
+
+# After calling unshift on birth_years, 1955 went from element[0] to element[1]
+birth_years = [1955, 1993, 2000, 2010]
+puts ""
+print "birth_years - "
+print birth_years
+puts ""
+print "birth_years[0] - "
+puts birth_years[0]
+print "birth_years.unshift(1942)"
+birth_years.unshift(1942)
+print birth_years
+puts ""
+print "birth_years[1] - "
+puts birth_years[1]
