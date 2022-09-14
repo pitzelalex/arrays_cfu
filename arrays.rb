@@ -71,3 +71,14 @@ print birth_years
 puts ""
 print "birth_years[1] - "
 puts birth_years[1]
+
+# You can use .delete_at() to delete a particular element based on its order position in the array
+puts ""
+print "birth_years - "
+print birth_years
+puts ""
+print "birth_years.delete_at(3)"
+birth_years.delete_at(3)
+puts ""
+print "birth_years - "
+print birth_years
